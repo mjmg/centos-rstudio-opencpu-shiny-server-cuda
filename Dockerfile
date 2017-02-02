@@ -99,7 +99,7 @@ USER shiny
 RUN \
   rm -Rv /srv/shiny-server/apps && \
   rm -Rv /srv/shiny-server/rmd && \
-  mkdir /home/shiny/shiny-server/ && \
+  #mkdir /home/shiny/shiny-server/ && \
   ln  /home/shiny/shiny-server/apps /srv/shiny-server/apps -s && \
   ln  /home/shiny/shiny-server/rmd /srv/shiny-server/rmd -s
 

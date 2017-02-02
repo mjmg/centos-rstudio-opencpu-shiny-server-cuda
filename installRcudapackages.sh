@@ -7,9 +7,6 @@
 #Rscript -e "library(devtools); install_github('cdeterman/gpuR')"
 
 
-echo "Installing Biobase from Bioconductor"
-Rscript -e "source('https://bioconductor.org/biocLite.R'); biocLite('Biobase')"
-
 # This installs R packages in CRAN
 #echo "Installing gcbd from CRAN"
 #Rscript -e "install.packages('gcbd')"
